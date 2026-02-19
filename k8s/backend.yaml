@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: my-backend
-          image: demo-k8s:latest
+          image: 192.168.6.135:8082/demo-k8s:latest
           ports:
             - containerPort: 8080
 ---
